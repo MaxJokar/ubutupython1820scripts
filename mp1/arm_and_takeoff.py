@@ -33,7 +33,8 @@ def arm_and_takeoff(aTargetAltitude):
   # Copter should arm in GUIDED mode
   vehicle.mode    = VehicleMode("GUIDED")
   vehicle.armed   = True
-
+  print("hello test ....")
+  print("Dev1  branch created ...")
   while not vehicle.armed:
     print(" Waiting for arming...")
     time.sleep(1)
